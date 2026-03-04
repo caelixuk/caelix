@@ -1,0 +1,36 @@
+[CAELIX] experiment=00F_heavy_walker_damping_strong
+[CAELIX] when=2026-02-24 19:42:17
+[CAELIX] what=Heavy Walker damping contrast: linear path, fast pacing, higher gamma to suppress ringing/wake.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00F_heavy_walker_damping_strong/20260224_194217 --n 512 --traffic-mode telegraph --traffic-iters 200 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.010 --traffic-decay 0.0 --walker --walker-steps 64 --walker-tick-iters 100
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00F_heavy_walker_damping_strong/20260224_194217 \
+  --n \
+  512 \
+  --traffic-mode \
+  telegraph \
+  --traffic-iters \
+  200 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.010 \
+  --traffic-decay \
+  0.0 \
+  --walker \
+  --walker-steps \
+  64 \
+  --walker-tick-iters \
+  100
+[run] log=_Output/00_heavy_walker/00F_heavy_walker_damping_strong/20260224_194217/_logs/00F_heavy_walker_damping_strong_n512_20260224_194217.log
+[run] bundle=_Output/00_heavy_walker/00F_heavy_walker_damping_strong/20260224_194217
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker] wrote /_Output/00_heavy_walker/00F_heavy_walker_damping_strong/20260224_194217/_csv/00F_heavy_walker_damping_strong_n512_20260224_194217.csv
+[timing] wall_s=313.257

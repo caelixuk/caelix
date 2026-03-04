@@ -1,0 +1,33 @@
+# producer=CAELIX
+# when=2026-02-13T00:14:54
+# cwd=
+# python=
+# command= /core.py --out _Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453 --oscillator --traffic-mode telegraph --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --osc-mass-iters 220512 --osc-mass-inject 2.0 --osc-steps 4000 --osc-burn 800 --osc-warm 400 --osc-sample-every 1 --osc-omega 0.15 --osc-amp 25.0 --osc-r-near 16 --osc-r-far 160 --osc-lens --osc-ray-count 128 --osc-ray-step 0.75 --osc-ray-max 640
+# run_id=20260213_001453
+# experiment=06A_oscillator_phase_drift_lensing
+# artefact=oscillator_phase_drift
+# n=512
+# seed=6174
+# traffic_mode=telegraph
+# traffic_c2=0.31
+# traffic_gamma=0.001
+# traffic_dt=1.0
+# traffic_decay=0.0
+# mass_iters=220512
+# mass_inject=2.0
+# mass_amp=1.0
+# mass_boundary=zero
+# mass_sponge_width=0
+# mass_sponge_strength=0.0
+# axis=x
+# r_near=16
+# r_far=160
+# omega=0.15
+# drive_amp=25.0
+# steps=4000
+# burn=800
+# warm=400
+# demod_window=256
+# series_every=1
+n,axis,r_near,r_far,probe_x_near,probe_y_near,probe_z_near,probe_x_far,probe_y_far,probe_z_far,rec_every,tele_c2,tele_dt,tele_gamma,tele_decay,omega_max,lam_min,omega_drive,f_drive,omega_use,f_use,drive_amp,steps,burn,warm,demod_window,phi_near,phi_far,omega_eff_near,omega_eff_far,f_meas_near,f_meas_far,delta_f,frac_delta_f,frac_delta_f_drive,frac_delta_f_use,phase_drift_rad_per_tick,amp_med_near,amp_med_far,wall_s
+512,x,16,160,272,256,256,416,256,256,1,0.31,1.0,0.001,0.0,0.34983295238371703,10.0,0.15,0.0238732414637843,0.14922565104551516,0.023749999999999997,25.0,4000,800,400,256,0.43045106530189514,0.0043933154083788395,0.14999735143768594,0.14999725701089187,0.023872819931999932,0.023872804903508894,1.50284910384324e-08,6.295119605450571e-07,6.295119605450571e-07,6.327785700392591e-07,1.0008100168291213e-07,10.257744248432669,10.200392215700536,456.19533912464976

@@ -1,0 +1,12 @@
+[CAELIX] experiment=03B_coulomb_opposite_decay0_hard_boundary
+[CAELIX] when=2026-02-12 02:22:52
+[CAELIX] what=Coulomb proxy (opposite charges), decay=0.0.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/03_interaction/03B_coulomb_opposite_decay0_hard_boundary/20260212_022252 --coulomb --n 512 --traffic-mode diffuse --traffic-iters 10000 --coulomb-max-iters 10000 --coulomb-check-every 200 --coulomb-tol 1e-4 --traffic-decay 0.0 --coulomb-sign opposite --coulomb-d-min 4 --coulomb-d-max 48 --coulomb-d-step 4
+[run] log=_Output/03_interaction/03B_coulomb_opposite_decay0_hard_boundary/20260212_022252/_logs/03B_coulomb_opposite_decay0_hard_boundary_n512_20260212_022252.log
+[run] bundle=_Output/03_interaction/03B_coulomb_opposite_decay0_hard_boundary/20260212_022252
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[coulomb] wrote /_Output/03_interaction/03B_coulomb_opposite_decay0_hard_boundary/20260212_022252/_csv/03B_coulomb_opposite_decay0_hard_boundary_n512_20260212_022252.csv
+[timing] wall_s=4586.528

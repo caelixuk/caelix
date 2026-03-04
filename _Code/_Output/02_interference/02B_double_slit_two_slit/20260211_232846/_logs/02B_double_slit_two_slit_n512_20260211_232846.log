@@ -1,0 +1,11 @@
+[CAELIX] experiment=02B_double_slit_two_slit
+[CAELIX] when=2026-02-11 23:28:46
+[CAELIX] what=Young double-slit interference (telegraph, sine drive).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/02_interference/02B_double_slit_two_slit/20260211_232846 --double-slit --ds-source sine --ds-omega 0.80 --ds-gun-speed 0.0 --ds-burn 600 --ds-window 200 --ds-sample-every 4 --ds-amp 1000.0 --traffic-mode telegraph --traffic-gamma 0.0001 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --n 512 --ds-wall-x 256 --ds-detector-x 470 --ds-gun-stop 246 --ds-steps 5000 --ds-slit-sep 64 --ds-slit-width 8 --ds-sample-every 1
+[run] log=_Output/02_interference/02B_double_slit_two_slit/20260211_232846/_logs/02B_double_slit_two_slit_n512_20260211_232846.log
+[run] bundle=_Output/02_interference/02B_double_slit_two_slit/20260211_232846
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=705.136

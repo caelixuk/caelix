@@ -1,0 +1,11 @@
+[CAELIX] experiment=06C_ringdown_passive_resonance_probe
+[CAELIX] when=2026-02-13 10:53:38
+[CAELIX] what=Passive ringdown sigma probe (Dirichlet box): single pulse, evolve, record E_final and dominant FFT peak.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/06_relativity/06C_ringdown_passive_resonance_probe/20260213_105338 --ringdown --traffic-mode telegraph --traffic-boundary zero --traffic-sponge-width 0 --traffic-sponge-strength 0.0 --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.0 --traffic-decay 0.0 --ringdown-steps 8192 --ringdown-amp 500 --ringdown-probe-window 4096 --ringdown-sigma-start 6.0 --ringdown-sigma-stop 6.0 --ringdown-sigma-step 1.0
+[run] log=_Output/06_relativity/06C_ringdown_passive_resonance_probe/20260213_105338/_logs/06C_ringdown_passive_resonance_probe_n512_20260213_105338.log
+[run] bundle=_Output/06_relativity/06C_ringdown_passive_resonance_probe/20260213_105338
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=908.195

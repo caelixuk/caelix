@@ -1,0 +1,40 @@
+[CAELIX] experiment=00J_heavy_walker_near_mach_hold
+[CAELIX] when=2026-02-24 23:19:07
+[CAELIX] what=Heavy Walker near-Mach stress test: tick-iters=2 move phase with decay, then slow hold to measure relaxation.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00J_heavy_walker_near_mach_hold/20260224_231907 --n 512 --traffic-mode telegraph --traffic-iters 200 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.010 --walker --walker-steps 64 --walker-tick-iters 2 --walker-hold-steps 64 --walker-hold-tick-iters 200
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00J_heavy_walker_near_mach_hold/20260224_231907 \
+  --n \
+  512 \
+  --traffic-mode \
+  telegraph \
+  --traffic-iters \
+  200 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.001 \
+  --traffic-decay \
+  0.010 \
+  --walker \
+  --walker-steps \
+  64 \
+  --walker-tick-iters \
+  2 \
+  --walker-hold-steps \
+  64 \
+  --walker-hold-tick-iters \
+  200
+[run] log=_Output/00_heavy_walker/00J_heavy_walker_near_mach_hold/20260224_231907/_logs/00J_heavy_walker_near_mach_hold_n512_20260224_231907.log
+[run] bundle=_Output/00_heavy_walker/00J_heavy_walker_near_mach_hold/20260224_231907
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker] wrote /_Output/00_heavy_walker/00J_heavy_walker_near_mach_hold/20260224_231907/_csv/00J_heavy_walker_near_mach_hold_n512_20260224_231907.csv
+[timing] wall_s=615.070

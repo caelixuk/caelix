@@ -1,0 +1,40 @@
+[CAELIX] experiment=00D_heavy_walker_hold_decay
+[CAELIX] when=2026-02-24 18:40:42
+[CAELIX] what=Heavy Walker hold/decay: fast pacing move phase then hold to measure wake relaxation.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00D_heavy_walker_hold_decay/20260224_184042 --n 512 --traffic-mode telegraph --traffic-iters 200 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --walker --walker-steps 64 --walker-tick-iters 100 --walker-hold-steps 64 --walker-hold-tick-iters 200
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00D_heavy_walker_hold_decay/20260224_184042 \
+  --n \
+  512 \
+  --traffic-mode \
+  telegraph \
+  --traffic-iters \
+  200 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.001 \
+  --traffic-decay \
+  0.0 \
+  --walker \
+  --walker-steps \
+  64 \
+  --walker-tick-iters \
+  100 \
+  --walker-hold-steps \
+  64 \
+  --walker-hold-tick-iters \
+  200
+[run] log=_Output/00_heavy_walker/00D_heavy_walker_hold_decay/20260224_184042/_logs/00D_heavy_walker_hold_decay_n512_20260224_184042.log
+[run] bundle=_Output/00_heavy_walker/00D_heavy_walker_hold_decay/20260224_184042
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker] wrote /_Output/00_heavy_walker/00D_heavy_walker_hold_decay/20260224_184042/_csv/00D_heavy_walker_hold_decay_n512_20260224_184042.csv
+[timing] wall_s=909.038

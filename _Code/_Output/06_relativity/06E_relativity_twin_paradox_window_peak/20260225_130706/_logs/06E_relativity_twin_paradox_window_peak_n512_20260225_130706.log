@@ -1,0 +1,71 @@
+[CAELIX] experiment=06E_relativity_twin_paradox_window_peak
+[CAELIX] when=2026-02-25 13:07:06
+[CAELIX] what=lightbox corrected: windowed peak arrival timing (breaks gate-lock), telegraph, n=512.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706 --relativity --traffic-mode telegraph --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --rel-L 48 --rel-v-frac 0.3 --rel-v-frac-ref 0.1 --rel-steps 1500 --rel-slab 8 --rel-amp 500 --rel-sigma 2.25 --rel-threshold 0.01 --rel-refractory 10 --rel-detect window_peak --rel-start-threshold 0.01 --rel-peak-window 12 --rel-accept-threshold -1.0
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706 \
+  --relativity \
+  --traffic-mode \
+  telegraph \
+  --n \
+  512 \
+  --traffic-iters \
+  1 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.001 \
+  --traffic-decay \
+  0.0 \
+  --rel-L \
+  48 \
+  --rel-v-frac \
+  0.3 \
+  --rel-v-frac-ref \
+  0.1 \
+  --rel-steps \
+  1500 \
+  --rel-slab \
+  8 \
+  --rel-amp \
+  500 \
+  --rel-sigma \
+  2.25 \
+  --rel-threshold \
+  0.01 \
+  --rel-refractory \
+  10 \
+  --rel-detect \
+  window_peak \
+  --rel-start-threshold \
+  0.01 \
+  --rel-peak-window \
+  12 \
+  --rel-accept-threshold \
+  -1.0
+[run] log=_Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706/_logs/06E_relativity_twin_paradox_window_peak_n512_20260225_130706.log
+[run] bundle=_Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=178.622
+=1500 L=48 v_frac=0.3 v_ref_frac=0.1 c_eff=0.556776 slab=8
+[relativity] pulse: amp=500 sigma=2.25 threshold=0.01 refractory=10 detect=window_peak start_thr=0.01 peak_window=12 accept_thr=-1
+[relativity] out_csv=/_Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706/_csv/06E_relativity_twin_paradox_window_peak_n512_20260225_130706.csv
+[relativity] motion_preflight: max_dx=483 v=0.167033 max_steps=2891 (n=512 margin=12)
+[relativity] motion_preflight: start_x=14 max_dx=483 v=0.167033 max_steps=2891 (n=512 margin=12)
+[relativity] detect_cal: mode=window_peak rad=2 frac=0.01 e_ref=1.250761e+07 e_high=1.250761e+05 e_low=3.126902e+04 start_frac=0.01 e_start=1.250761e+05 peak_window=12 accept_frac=-1 e_accept=-1.000000e+00
+[relativity] out_csv=/_Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706/_csv/06E_relativity_twin_paradox_window_peak_n512_20260225_130706.csv
+[relativity] n=512 steps=1500 L=48 v=0.167033 mirror_sep=48 slab=4 c_eff=0.556776
+[relativity] pulse: amp=500 sigma=2.25 threshold=0.01 refractory=10 detect=window_peak start_thr=0.01 peak_window=12 accept_thr=-1
+[relativity] ref_drift: v_ref=0.0556776 x_ref0=14.000
+[relativity] mov_drift: v=0.167033 start_x=14
+[relativity] wrote /_Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706/_csv/06E_relativity_twin_paradox_window_peak_n512_20260225_130706.csv
+[relativity] wrote /_Output/06_relativity/06E_relativity_twin_paradox_window_peak/20260225_130706/_csv/06E_relativity_twin_paradox_window_peak_n512_20260225_130706.csv
+[timing] wall_s=178.622

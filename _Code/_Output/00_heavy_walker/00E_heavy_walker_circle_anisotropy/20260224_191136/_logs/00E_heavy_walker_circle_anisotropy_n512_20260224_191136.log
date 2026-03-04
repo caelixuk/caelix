@@ -1,0 +1,44 @@
+[CAELIX] experiment=00E_heavy_walker_circle_anisotropy
+[CAELIX] when=2026-02-24 19:11:36
+[CAELIX] what=Heavy Walker circle-path anisotropy probe: measure wake/lag as direction rotates (telegraph).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00E_heavy_walker_circle_anisotropy/20260224_191136 --n 512 --traffic-mode telegraph --traffic-iters 200 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --walker --walker-path circle --walker-circle-radius 8 --walker-circle-period 0 --walker-probe-r 8 --walker-steps 256 --walker-tick-iters 100
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00E_heavy_walker_circle_anisotropy/20260224_191136 \
+  --n \
+  512 \
+  --traffic-mode \
+  telegraph \
+  --traffic-iters \
+  200 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.001 \
+  --traffic-decay \
+  0.0 \
+  --walker \
+  --walker-path \
+  circle \
+  --walker-circle-radius \
+  8 \
+  --walker-circle-period \
+  0 \
+  --walker-probe-r \
+  8 \
+  --walker-steps \
+  256 \
+  --walker-tick-iters \
+  100
+[run] log=_Output/00_heavy_walker/00E_heavy_walker_circle_anisotropy/20260224_191136/_logs/00E_heavy_walker_circle_anisotropy_n512_20260224_191136.log
+[run] bundle=_Output/00_heavy_walker/00E_heavy_walker_circle_anisotropy/20260224_191136
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker] wrote /_Output/00_heavy_walker/00E_heavy_walker_circle_anisotropy/20260224_191136/_csv/00E_heavy_walker_circle_anisotropy_n512_20260224_191136.csv
+[timing] wall_s=1231.151

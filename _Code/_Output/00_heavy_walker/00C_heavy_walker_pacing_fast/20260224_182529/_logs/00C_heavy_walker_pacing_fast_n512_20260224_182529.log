@@ -1,0 +1,36 @@
+[CAELIX] experiment=00C_heavy_walker_pacing_fast
+[CAELIX] when=2026-02-24 18:25:29
+[CAELIX] what=Heavy Walker pacing contrast (warm-started; faster move pacing to amplify wake).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00C_heavy_walker_pacing_fast/20260224_182529 --n 512 --traffic-mode telegraph --traffic-iters 200 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --walker --walker-steps 64 --walker-tick-iters 100
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00C_heavy_walker_pacing_fast/20260224_182529 \
+  --n \
+  512 \
+  --traffic-mode \
+  telegraph \
+  --traffic-iters \
+  200 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.001 \
+  --traffic-decay \
+  0.0 \
+  --walker \
+  --walker-steps \
+  64 \
+  --walker-tick-iters \
+  100
+[run] log=_Output/00_heavy_walker/00C_heavy_walker_pacing_fast/20260224_182529/_logs/00C_heavy_walker_pacing_fast_n512_20260224_182529.log
+[run] bundle=_Output/00_heavy_walker/00C_heavy_walker_pacing_fast/20260224_182529
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker] wrote /_Output/00_heavy_walker/00C_heavy_walker_pacing_fast/20260224_182529/_csv/00C_heavy_walker_pacing_fast_n512_20260224_182529.csv
+[timing] wall_s=310.733

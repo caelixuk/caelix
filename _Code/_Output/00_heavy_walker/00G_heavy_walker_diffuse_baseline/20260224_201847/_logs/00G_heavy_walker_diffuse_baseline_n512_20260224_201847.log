@@ -1,0 +1,30 @@
+[CAELIX] experiment=00G_heavy_walker_diffuse_baseline
+[CAELIX] when=2026-02-24 20:18:47
+[CAELIX] what=Heavy Walker diffusion baseline: linear path, fast pacing, diffuse mode control for lag vs telegraph wake.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00G_heavy_walker_diffuse_baseline/20260224_201847 --n 512 --traffic-mode diffuse --traffic-iters 200 --traffic-decay 0.0 --walker --walker-steps 64 --walker-tick-iters 100
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00G_heavy_walker_diffuse_baseline/20260224_201847 \
+  --n \
+  512 \
+  --traffic-mode \
+  diffuse \
+  --traffic-iters \
+  200 \
+  --traffic-decay \
+  0.0 \
+  --walker \
+  --walker-steps \
+  64 \
+  --walker-tick-iters \
+  100
+[run] log=_Output/00_heavy_walker/00G_heavy_walker_diffuse_baseline/20260224_201847/_logs/00G_heavy_walker_diffuse_baseline_n512_20260224_201847.log
+[run] bundle=_Output/00_heavy_walker/00G_heavy_walker_diffuse_baseline/20260224_201847
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker] wrote /_Output/00_heavy_walker/00G_heavy_walker_diffuse_baseline/20260224_201847/_csv/00G_heavy_walker_diffuse_baseline_n512_20260224_201847.csv
+[timing] wall_s=233.899

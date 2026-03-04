@@ -1,0 +1,21 @@
+# producer=CAELIX
+# when=2026-02-11T17:31:31
+# cwd=
+# python=
+# command= /core.py --out _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130 --n 512 --steps 0 --traffic-iters 250000 --traffic-rate 0.10 --traffic-inject 1.0 --traffic-decay 0.0 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --k-index 1.0 --X0 8000 --ds 1.0 --eps 0.005 --delta-load --dump-radial _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_radial_n512_20260211_173130.csv --dump-radial-fit _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_radial_fit_n512_20260211_173130.csv --dump-shapiro _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_shapiro_n512_20260211_173130.csv
+# run_id=20260211_173130
+# artefact=shapiro
+# n=512
+# steps=0
+# traffic_iters=250000
+# seed=6174
+# lattice_init=sparse
+coupling,K,r2_fit
+1.0,0.5786910544654059,0.9434107738196846
+2.0,1.237030245142382,0.9329516386198619
+3.0,1.9591740204363026,0.9243839564076457
+4.0,3.1486110579674405,0.8879356898665084
+6.0,4.742420637413654,0.8919449050132133
+8.0,6.4125075304126185,0.8940540987737768
+12.0,9.763353376087403,0.9011696400791719
+16.0,12.425887925105494,0.9206348492344676

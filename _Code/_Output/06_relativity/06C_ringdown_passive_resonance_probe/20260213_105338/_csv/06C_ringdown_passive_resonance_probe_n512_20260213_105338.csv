@@ -1,0 +1,29 @@
+# producer=CAELIX
+# when=2026-02-13T10:53:39
+# cwd=
+# python=
+# command= /core.py --out _Output/06_relativity/06C_ringdown_passive_resonance_probe/20260213_105338 --ringdown --traffic-mode telegraph --traffic-boundary zero --traffic-sponge-width 0 --traffic-sponge-strength 0.0 --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.0 --traffic-decay 0.0 --ringdown-steps 8192 --ringdown-amp 500 --ringdown-probe-window 4096 --ringdown-sigma-start 6.0 --ringdown-sigma-stop 6.0 --ringdown-sigma-step 1.0
+# run_id=20260213_105338
+# experiment=06C_ringdown_passive_resonance_probe
+# artefact=ringdown_sigma_sweep
+# n=512
+# seed=6174
+# traffic_mode=telegraph
+# traffic_c2=0.31
+# traffic_gamma=0.0
+# traffic_dt=1.0
+# traffic_decay=0.0
+# traffic_boundary=zero
+# ringdown_steps=8192
+# pulse_amp=500.0
+# ringdown_norm=Efinal_over_Eland
+# ringdown_note_esrc=E_src_target is a per-sigma normalisation target: min(unscaled sum(src^2)) across the sweep; src is scaled so sum(src^2)=E_src_target (never amplifies).
+# ringdown_note_eland=E_land is total grid energy after a short post-injection settle (land_tick) and is used to cancel injection coupling; primary stability metric is E_final / E_land.
+# ringdown_csv_columns=sigma,E_src_target,src_scale,src_peak,E_land,E_final,Efinal_over_Eland,Efinal_over_Esrc_target,probe_peak_abs,freq_peak,amp_peak
+# ringdown_sigma_start=6.0
+# ringdown_sigma_stop=6.0
+# ringdown_sigma_step=1.0
+# ringdown_probe_window=4096
+# ringdown_out=
+sigma,E_src_target,src_scale,src_peak,land_tick,E0,E_peak,t_E_peak,E_land,E_final,Efinal_over_Eland,Efinal_over_Esrc_target,probe_peak_abs,tail_rms,tail_var,freq_peak,freq_bin,amp_peak,probe2_dx,probe2_peak_abs,tail2_rms,tail2_var,freq2_peak,freq2_bin,amp2_peak,arrive_frac,t_arrive
+6,3.006785311e+08,1.000000000e+00,5.000000000e+02,163,6.013570621e+08,4.143735489e+10,7680,3.492480116e+10,3.836198023e+10,1.098416568e+00,1.275847002e+02,3.280454102e+03,1.253528768e+02,1.571334371e+04,8.544921875e-03,35,9.367052805e+04,64,2.512116241e+02,3.321752331e+01,1.103403855e+03,9.765625000e-04,4,3.276203015e+04,0.25,96

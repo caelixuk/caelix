@@ -1,0 +1,12 @@
+[CAELIX] experiment=01B_pipeline_baseline_sponge_boundary
+[CAELIX] when=2026-02-11 17:31:30
+[CAELIX] what=Steady-field pipeline + Shapiro lockdown (single seed).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130 --n 512 --steps 0 --traffic-iters 250000 --traffic-rate 0.10 --traffic-inject 1.0 --traffic-decay 0.0 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --k-index 1.0 --X0 8000 --ds 1.0 --eps 0.005 --delta-load --dump-radial _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_radial_n512_20260211_173130.csv --dump-radial-fit _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_radial_fit_n512_20260211_173130.csv --dump-shapiro _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_shapiro_n512_20260211_173130.csv
+[run] log=_Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_logs/01B_pipeline_baseline_sponge_boundary_n512_20260211_173130.log
+[run] bundle=_Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[shapiro-dump] wrote /_Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_shapiro_n512_20260211_173130.csv
+[timing] wall_s=12810.439

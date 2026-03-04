@@ -1,0 +1,39 @@
+[CAELIX] experiment=00L_heavy_walker_tick_sweep_clean_telegraph
+[CAELIX] when=2026-02-25 00:28:11
+[CAELIX] what=Heavy Walker tick sweep: pacing curve in clean telegraph regime (gamma=0.001, decay=0.010).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/00_heavy_walker/00L_heavy_walker_tick_sweep_clean_telegraph/20260225_002811 --n 512 --traffic-mode telegraph --traffic-iters 200 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.010 --walker --walker-steps 64 --walker-tick-iters 100 --walker-sweep --walker-sweep-ticks 2,4,8,16,32,64,100,200
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/00_heavy_walker/00L_heavy_walker_tick_sweep_clean_telegraph/20260225_002811 \
+  --n \
+  512 \
+  --traffic-mode \
+  telegraph \
+  --traffic-iters \
+  200 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  1.0 \
+  --traffic-gamma \
+  0.001 \
+  --traffic-decay \
+  0.010 \
+  --walker \
+  --walker-steps \
+  64 \
+  --walker-tick-iters \
+  100 \
+  --walker-sweep \
+  --walker-sweep-ticks \
+  2,4,8,16,32,64,100,200
+[run] log=_Output/00_heavy_walker/00L_heavy_walker_tick_sweep_clean_telegraph/20260225_002811/_logs/00L_heavy_walker_tick_sweep_clean_telegraph_n512_20260225_002811.log
+[run] bundle=_Output/00_heavy_walker/00L_heavy_walker_tick_sweep_clean_telegraph/20260225_002811
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[walker-sweep] wrote /_Output/00_heavy_walker/00L_heavy_walker_tick_sweep_clean_telegraph/20260225_002811/_csv/00L_heavy_walker_tick_sweep_clean_telegraph_walker_sweep_n512_20260225_002811.csv
+[timing] wall_s=1412.452

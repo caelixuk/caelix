@@ -1,0 +1,27 @@
+# producer=CAELIX
+# when=2026-02-11T17:31:31
+# cwd=
+# python=
+# command= /core.py --out _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130 --n 512 --steps 0 --traffic-iters 250000 --traffic-rate 0.10 --traffic-inject 1.0 --traffic-decay 0.0 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --k-index 1.0 --X0 8000 --ds 1.0 --eps 0.005 --delta-load --dump-radial _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_radial_n512_20260211_173130.csv --dump-radial-fit _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_radial_fit_n512_20260211_173130.csv --dump-shapiro _Output/01_baseline/01B_pipeline_baseline_sponge_boundary/20260211_173130/_csv/01B_pipeline_baseline_sponge_boundary_shapiro_n512_20260211_173130.csv
+# run_id=20260211_173130
+# n=512
+# steps=0
+# traffic_iters=250000
+# seed=6174
+# lattice_init=sparse
+# artefact=radial_fit
+fit_kind,r_min,r_max,n_points,slope,intercept,r2,A,B,r2_inv_r,p,log_a0,r2_loglog,scan_used,scan_median,scan_p16,scan_p84,age_iters,err_abs_p_plus_1
+powerlaw_loglog,3.0,179.2,177,-1.850855037190398,3.889529251652294,0.9256424369898905,,,,,,,,,,,,
+powerlaw_scan,3.0,179.2,177,-2.353530188979025,,,,,,,,,7.0,-2.353530188979025,-3.045323909499233,-1.7427045101473673,,
+linear_inv_r,3.0,179.2,177,4.12066943527353,-0.024652209812910685,0.9970889861561775,,,,,,,,,,,,
+base_frac,3.0,179.2,177,,,0.0,,,,,,,,,,,,
+deoffset_powerlaw,3.0,179.2,177,-1.0111803291266155,,0.9952703722859367,,,,,,,,,,,,
+best_inv_r_age,3.0,179.2,177,-0.9999983116565918,,0.9932750957925458,,,,,,,,,,,220464,1.6883434081904625e-06
+powerlaw_window,3.0,108.71999999999998,106,-1.4269240406295773,2.496967955018306,0.971264295676568,,,,,,,,,,,,
+powerlaw_window,14.746666666666668,120.46666666666665,106,-1.7558620297106085,3.809723497709346,0.9767164482829518,,,,,,,,,,,,
+powerlaw_window,26.493333333333336,132.2133333333333,106,-2.0521967156556222,5.058245285380157,0.9784003059897195,,,,,,,,,,,,
+powerlaw_window,38.24,143.95999999999998,105,-2.353530188979025,6.382160263626738,0.9800986423145723,,,,,,,,,,,,
+powerlaw_window,49.98666666666667,155.70666666666665,106,-2.6694995636678285,7.809258683389952,0.9808971178964625,,,,,,,,,,,,
+powerlaw_window,61.73333333333334,167.45333333333332,106,-3.029692639097878,9.483584242813617,0.9820681641426413,,,,,,,,,,,,
+powerlaw_window,73.48,179.2,106,-3.420474399131757,11.343718983932407,0.9831019531724835,,,,,,,,,,,,
+inv_r_plus_offset_powerlaw,3.0,179.2,177.0,4.12066943527353,-0.024652209812910685,0.9970889861561775,4.12066943527353,-0.024652209812910685,0.9970889861561775,-1.0111803291266155,,0.9952703722859367

@@ -1,0 +1,22 @@
+[CAELIX] experiment=06A_oscillator_phase_drift_lensing
+[CAELIX] when=2026-02-13 00:14:53
+[CAELIX] what=Gravitational time dilation via phase drift (oscillators) + lensing preview (telegraph), n=512.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453 --oscillator --traffic-mode telegraph --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --osc-mass-iters 220512 --osc-mass-inject 2.0 --osc-steps 4000 --osc-burn 800 --osc-warm 400 --osc-sample-every 1 --osc-omega 0.15 --osc-amp 25.0 --osc-r-near 16 --osc-r-far 160 --osc-lens --osc-ray-count 128 --osc-ray-step 0.75 --osc-ray-max 640
+[run] log=_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_logs/06A_oscillator_phase_drift_lensing_n512_20260213_001453.log
+[run] bundle=_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[oscillator] wrote /_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453.csv
+[oscillator] wrote /_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453_lensing.csv
+[timing] wall_s=8588.086
+_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453.csv
+[run] csv_series=/_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453_series.csv
+[run] csv_lens=/_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453_lensing.csv
+[oscillator] n=512 steps=4000 burn=800 warm=400 axis=x r_near=16 r_far=160 omega=0.15 drive_amp=25
+[oscillator] steady_phi: iters=220512 inject=2 decay=0
+[oscillator] lensing: alpha=0.005 rays=128 span=80 march_steps=640 ds=0.75
+[oscillator] wrote /_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453.csv
+[oscillator] wrote /_Output/06_relativity/06A_oscillator_phase_drift_lensing/20260213_001453/_csv/06A_oscillator_phase_drift_lensing_n512_20260213_001453_lensing.csv
+[timing] wall_s=8588.086

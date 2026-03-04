@@ -1,0 +1,12 @@
+[CAELIX] experiment=03C_coulomb_like_decay0_sponge_boundary
+[CAELIX] when=2026-02-12 03:54:55
+[CAELIX] what=Coulomb proxy (like charges), decay=0.0.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/03_interaction/03C_coulomb_like_decay0_sponge_boundary/20260212_035455 --coulomb --n 512 --traffic-mode diffuse --traffic-iters 10000 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --coulomb-max-iters 10000 --coulomb-check-every 200 --coulomb-tol 1e-4 --traffic-decay 0.0 --coulomb-sign like --coulomb-d-min 4 --coulomb-d-max 48 --coulomb-d-step 4
+[run] log=_Output/03_interaction/03C_coulomb_like_decay0_sponge_boundary/20260212_035455/_logs/03C_coulomb_like_decay0_sponge_boundary_n512_20260212_035455.log
+[run] bundle=_Output/03_interaction/03C_coulomb_like_decay0_sponge_boundary/20260212_035455
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[coulomb] wrote /_Output/03_interaction/03C_coulomb_like_decay0_sponge_boundary/20260212_035455/_csv/03C_coulomb_like_decay0_sponge_boundary_n512_20260212_035455.csv
+[timing] wall_s=6352.110

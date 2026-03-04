@@ -1,0 +1,12 @@
+[CAELIX] experiment=05A_isotropy_sigma_sweep
+[CAELIX] when=2026-02-12 10:45:40
+[CAELIX] what=Isotropy sigma sweep (telegraph), single CSV over sigma range (c2=0.31).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/05_calibration/05A_isotropy_sigma_sweep/20260212_104540 --isotropy --iso-sweep --traffic-mode telegraph --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --iso-R 128 --iso-steps 512 --iso-amp 50 --iso-sigma-start 1.0 --iso-sigma-stop 8.0 --iso-sigma-steps 64
+[run] log=_Output/05_calibration/05A_isotropy_sigma_sweep/20260212_104540/_logs/05A_isotropy_sigma_sweep_n512_20260212_104540.log
+[run] bundle=_Output/05_calibration/05A_isotropy_sigma_sweep/20260212_104540
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[isotropy] wrote /_Output/05_calibration/05A_isotropy_sigma_sweep/20260212_104540/_csv/05A_isotropy_sigma_sweep_n512_20260212_104540.csv
+[timing] wall_s=3200.557

@@ -1,0 +1,11 @@
+[CAELIX] experiment=04A_corral_global_sweep_optimised
+[CAELIX] when=2026-02-12 10:12:46
+[CAELIX] what=Quantum corral: optimised sweep (telegraph).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/04_confinement/04A_corral_global_sweep_optimised/20260212_101246 --corral --corral-geom sphere --traffic-mode telegraph --n 192 --traffic-iters 1 --traffic-c2 0.25 --traffic-gamma 0.001 --traffic-dt 1.0 --traffic-decay 0.0 --corral-radius 80 --corral-omega-start 0.01 --corral-omega-stop 0.62 --corral-omega-steps 1024 --corral-burn 4000 --corral-burn-frac 0.8 --corral-warm 300
+[run] log=_Output/04_confinement/04A_corral_global_sweep_optimised/20260212_101246/_logs/04A_corral_global_sweep_optimised_n192_20260212_101246.log
+[run] bundle=_Output/04_confinement/04A_corral_global_sweep_optimised/20260212_101246
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=26185.358
