@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: >-
+  If you use CAELIX in your research, please cite it using the metadata in this file.
+  If you use CAELIX commercially under a separate commercial licence, attribution requirements may differ.
+title: "CAELIX"
+type: software
+authors:
+  - family-names: "Ball"
+    given-names: "Alan"
+    email: "alan@caelix.co.uk"
+repository-code: "https://github.com/caelixuk/caelix"
+url: "https://caelix.co.uk"
+license: "AGPL-3.0-or-later"
+abstrakt: >-
+  CAELIX is a constructive laboratory for discrete-to-continuous field couplings on a 3D lattice.
+  It maps balanced-ternary microstates into non-negative load fields, couples these into carrier
+  dynamics (diffusion/telegraph surrogates), and provides reproducible experiments with provenance
+  logging and ablation controls.
+preferred-citation:
+  type: software
+  title: "CAELIX"
+  authors:
+    - family-names: "Ball"
+      given-names: "Alan"
+      email: "alan@caelix.co.uk"
+  url: "https://caelix.co.uk"
+  repository-code: "https://github.com/caelixuk/caelix"
+  license: "AGPL-3.0-or-later"
