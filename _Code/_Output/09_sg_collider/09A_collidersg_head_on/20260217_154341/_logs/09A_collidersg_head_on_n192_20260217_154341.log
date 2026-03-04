@@ -1,0 +1,11 @@
+[CAELIX] experiment=09A_collidersg_head_on
+[CAELIX] when=2026-02-17 15:43:41
+[CAELIX] what=Phase 9: Sine-Gordon sprite collider — N=192 Optimised
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/09_sg_collider/09A_collidersg_head_on/20260217_154341 --collidersg --collidersg-scenario A --collidersg-sprites [{"sid":1,"pos":[60,96,96],"vel":[0.2,0.0,0.0],"phase":0.0},{"sid":2,"pos":[132,96,96],"vel":[-0.2,0.0,0.0],"phase":3.14159}] --collidersg-sprite-asset /_Output/08_solitons/08G_sine_gordon_breather_extract/20260217_062107/_sprites/08G_sine_gordon_breather_extract_n192_20260217_062107__sprite_step29505_L017_R008.h5 --collidersg-steps 30000 --collidersg-log-every 1 --collidersg-track-r 14 --collidersg-peak-thresh 0.001 --collidersg-phi-abs-every 100 --traffic-mode sine_gordon --collidersg-boundary sponge --collidersg-sponge-width 24 --collidersg-sponge-strength 0.2 --n 192 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 0.05 --traffic-gamma 0.0 --traffic-decay 0.0
+[run] log=_Output/09_sg_collider/09A_collidersg_head_on/20260217_154341/_logs/09A_collidersg_head_on_n192_20260217_154341.log
+[run] bundle=_Output/09_sg_collider/09A_collidersg_head_on/20260217_154341
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=294.392

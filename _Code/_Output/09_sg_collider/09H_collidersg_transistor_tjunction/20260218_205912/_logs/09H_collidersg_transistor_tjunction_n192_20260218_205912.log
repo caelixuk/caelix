@@ -1,0 +1,69 @@
+[CAELIX] experiment=09H_collidersg_transistor_tjunction
+[CAELIX] when=2026-02-18 20:59:12
+[CAELIX] what=Phase 9: Sine-Gordon collider — first T-junction routing probe (single +2π wall), N=192.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/09_sg_collider/09H_collidersg_transistor_tjunction/20260218_205912 --collidersg --collidersg-scenario E --collidersg-sprites [{"sid":1,"kind":"kink_wall","pos":[60,96,96],"vel":[0.52,0.0,0.0],"phase":0.0},{"sid":2,"kind":"kink_wall","pos":[120,60,96],"vel":[0.0,0.0,0.0],"phase":0.0,"track_only":true}] --collidersg-steps 2500 --collidersg-log-every 1 --collidersg-track-r 6 --collidersg-peak-thresh 0.001 --collidersg-phi-abs-every 100 --collidersg-k 0.08 --collidersg-k-outside 5.0 --collidersg-wire-y0 90 --collidersg-wire-y1 102 --collidersg-wire-z0 90 --collidersg-wire-z1 102 --collidersg-wire-bevel 0 --collidersg-wire-geom t_junction --collidersg-junction-x 120 --collidersg-branch-len 48 --collidersg-branch-thick 2 --traffic-mode sine_gordon --collidersg-boundary neumann --n 192 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 0.05 --traffic-gamma 0.0 --traffic-decay 0.0
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/09_sg_collider/09H_collidersg_transistor_tjunction/20260218_205912 \
+  --collidersg \
+  --collidersg-scenario \
+  E \
+  --collidersg-sprites \
+  '[{"sid":1,"kind":"kink_wall","pos":[60,96,96],"vel":[0.52,0.0,0.0],"phase":0.0},{"sid":2,"kind":"kink_wall","pos":[120,60,96],"vel":[0.0,0.0,0.0],"phase":0.0,"track_only":true}]' \
+  --collidersg-steps \
+  2500 \
+  --collidersg-log-every \
+  1 \
+  --collidersg-track-r \
+  6 \
+  --collidersg-peak-thresh \
+  0.001 \
+  --collidersg-phi-abs-every \
+  100 \
+  --collidersg-k \
+  0.08 \
+  --collidersg-k-outside \
+  5.0 \
+  --collidersg-wire-y0 \
+  90 \
+  --collidersg-wire-y1 \
+  102 \
+  --collidersg-wire-z0 \
+  90 \
+  --collidersg-wire-z1 \
+  102 \
+  --collidersg-wire-bevel \
+  0 \
+  --collidersg-wire-geom \
+  t_junction \
+  --collidersg-junction-x \
+  120 \
+  --collidersg-branch-len \
+  48 \
+  --collidersg-branch-thick \
+  2 \
+  --traffic-mode \
+  sine_gordon \
+  --collidersg-boundary \
+  neumann \
+  --n \
+  192 \
+  --traffic-iters \
+  1 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  0.05 \
+  --traffic-gamma \
+  0.0 \
+  --traffic-decay \
+  0.0
+[run] log=_Output/09_sg_collider/09H_collidersg_transistor_tjunction/20260218_205912/_logs/09H_collidersg_transistor_tjunction_n192_20260218_205912.log
+[run] bundle=_Output/09_sg_collider/09H_collidersg_transistor_tjunction/20260218_205912
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=20.905
