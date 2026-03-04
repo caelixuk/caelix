@@ -1,0 +1,15 @@
+[CAELIX] experiment=07H_collider_scatter_same_spin
+[CAELIX] when=2026-02-13 16:13:57
+[CAELIX] what=Stage 4 scattering (same spin): near-miss impact parameter b>0 with full-vector back-reaction + octant flux (no hold).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/07_collider/07H_collider_scatter_same_spin/20260213_161357 --collider --collider-detectors --collider-shell-stride 2 --collider-shell1-inner-frac 0.18 --collider-shell1-outer-frac 0.22 --collider-shell2-inner-frac 0.22 --collider-shell2-outer-frac 0.26 --traffic-mode telegraph --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --collider-spin-b 1 --collider-vx 0.15 --collider-orbit-radius 80 --collider-orbit-omega 0.12 --collider-impact-b 4.0 --collider-impact-bz 0.0 --collider-backreact --collider-backreact-axes xyz --collider-backreact-k 0.020 --collider-backreact-mode repel --collider-backreact-vmax 0.250 --collider-octants --collider-steps 2500
+[run] log=_Output/07_collider/07H_collider_scatter_same_spin/20260213_161357/_logs/07H_collider_scatter_same_spin_n512_20260213_161357.log
+[run] bundle=_Output/07_collider/07H_collider_scatter_same_spin/20260213_161357
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=907.956
+er out-of-bounds at step=2174 (inA=1 inB=0 enable_b=1). Injection will be clamped; interpret results with care.
+[collider] done steps=2500 spin_b=1 csv=/_Output/07_collider/07H_collider_scatter_same_spin/20260213_161357/_csv/07H_collider_scatter_same_spin_n512_20260213_161357.csv wall=906.158s
+[collider] wrote /_Output/07_collider/07H_collider_scatter_same_spin/20260213_161357/_csv/07H_collider_scatter_same_spin_n512_20260213_161357.csv
+[timing] wall_s=907.956

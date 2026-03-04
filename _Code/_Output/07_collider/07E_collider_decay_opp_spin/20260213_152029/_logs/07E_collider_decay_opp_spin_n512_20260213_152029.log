@@ -1,0 +1,15 @@
+[CAELIX] experiment=07E_collider_decay_opp_spin
+[CAELIX] when=2026-02-13 15:20:29
+[CAELIX] what=Collider decay-mode (opp spin): detectors + calorimetry, then stop injection post-impact to test persistence.
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/07_collider/07E_collider_decay_opp_spin/20260213_152029 --collider --collider-detectors --collider-shell-stride 2 --collider-shell1-inner-frac 0.18 --collider-shell1-outer-frac 0.22 --collider-shell2-inner-frac 0.22 --collider-shell2-outer-frac 0.26 --traffic-mode telegraph --n 512 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 1.0 --traffic-gamma 0.001 --traffic-decay 0.0 --traffic-boundary sponge --traffic-sponge-width 32 --traffic-sponge-strength 1.0 --collider-spin-b -1 --collider-vx 0.15 --collider-orbit-radius 80 --collider-orbit-omega 0.12 --collider-steps 3000 --collider-hold --collider-hold-steps 1500 --collider-hold-grace 50 --collider-backreact --collider-backreact-k 0.020 --collider-backreact-mode repel --collider-backreact-vmax 0.250
+[run] log=_Output/07_collider/07E_collider_decay_opp_spin/20260213_152029/_logs/07E_collider_decay_opp_spin_n512_20260213_152029.log
+[run] bundle=_Output/07_collider/07E_collider_decay_opp_spin/20260213_152029
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[timing] wall_s=1077.208
+r out-of-bounds at step=2101 (inA=1 inB=0 enable_b=1). Injection will be clamped; interpret results with care.
+[collider] done steps=3000 spin_b=-1 csv=/_Output/07_collider/07E_collider_decay_opp_spin/20260213_152029/_csv/07E_collider_decay_opp_spin_n512_20260213_152029.csv wall=1075.361s
+[collider] wrote /_Output/07_collider/07E_collider_decay_opp_spin/20260213_152029/_csv/07E_collider_decay_opp_spin_n512_20260213_152029.csv
+[timing] wall_s=1077.208
