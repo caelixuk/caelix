@@ -1,0 +1,61 @@
+[CAELIX] experiment=08G_sine_gordon_breather_extract
+[CAELIX] when=2026-02-24 12:51:14
+[CAELIX] what=Sine-Gordon stable soliton extraction (sponge, traffic-mode=sine_gordon).
+[CAELIX] cwd=
+[CAELIX] python=
+[CAELIX] command= -u /core.py --out _Output/08_solitons/08G_sine_gordon_breather_extract/20260224_125114 --soliton --traffic-mode sine_gordon --traffic-boundary sponge --traffic-sponge-width 24 --traffic-sponge-strength 0.2 --n 192 --traffic-iters 1 --traffic-c2 0.31 --traffic-dt 0.05 --traffic-gamma 0.0 --traffic-decay 0.0 --soliton-steps 10000 --soliton-sigma 3.4 --soliton-sg-k-start 0.08 --soliton-sg-k-stop 0.08 --soliton-sg-k-steps 1 --soliton-sg-amp-start 8.6 --soliton-sg-amp-stop 8.6 --soliton-sg-amp-steps 1 --dump-sprite --soliton-lambda-start 0.0 --soliton-lambda-stop 0.0 --soliton-lambda-steps 1
+[CAELIX] command_ml=\n   \
+  -u \
+  /core.py \
+  --out \
+  _Output/08_solitons/08G_sine_gordon_breather_extract/20260224_125114 \
+  --soliton \
+  --traffic-mode \
+  sine_gordon \
+  --traffic-boundary \
+  sponge \
+  --traffic-sponge-width \
+  24 \
+  --traffic-sponge-strength \
+  0.2 \
+  --n \
+  192 \
+  --traffic-iters \
+  1 \
+  --traffic-c2 \
+  0.31 \
+  --traffic-dt \
+  0.05 \
+  --traffic-gamma \
+  0.0 \
+  --traffic-decay \
+  0.0 \
+  --soliton-steps \
+  10000 \
+  --soliton-sigma \
+  3.4 \
+  --soliton-sg-k-start \
+  0.08 \
+  --soliton-sg-k-stop \
+  0.08 \
+  --soliton-sg-k-steps \
+  1 \
+  --soliton-sg-amp-start \
+  8.6 \
+  --soliton-sg-amp-stop \
+  8.6 \
+  --soliton-sg-amp-steps \
+  1 \
+  --dump-sprite \
+  --soliton-lambda-start \
+  0.0 \
+  --soliton-lambda-stop \
+  0.0 \
+  --soliton-lambda-steps \
+  1
+[run] log=_Output/08_solitons/08G_sine_gordon_breather_extract/20260224_125114/_logs/08G_sine_gordon_breather_extract_n192_20260224_125114.log
+[run] bundle=_Output/08_solitons/08G_sine_gordon_breather_extract/20260224_125114
+[run] cwd=
+[threads] conservative cpu=28 perf=20 numba=8 vecLib=1
+[dumpsprite] OK: [extractsprite] phase=ok in=/_Output/08_solitons/08G_sine_gordon_breather_extract/20260224_125114/_sprites/08G_sine_gordon_breather_extract_n192_20260224_125114__sprite_step9505_L029_R014.h5 kind=sprite_asset out=/_Output/08_solitons/08G_sine_gordon_breather_extract/20260224_125114/_sprites
+[timing] wall_s=66.155
